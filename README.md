@@ -10,4 +10,4 @@
 
 ### Installing Watson AIOps Infra Automation 3.4 on ROKS 
 
-3. [./Installing Watson AIOps Infra Automation 3.4 on ROKS](./04-install-infra-automation-on-roks)
+3. [./Installing Watson AIOps Infra Automation 3.4 on ROKS](./03-install-infra-automation-on-roks)
