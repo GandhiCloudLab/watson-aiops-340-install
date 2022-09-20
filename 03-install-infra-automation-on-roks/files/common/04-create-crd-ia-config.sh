@@ -6,7 +6,7 @@ echo "----------------------------------------------------------------------"
 echo "4. Install CRD IAConfig (ibm-ia-installer) ..."
 echo "----------------------------------------------------------------------"
 
-YOUR_IM_HTTPD_ROUTE=$(oc get route -n ibm-common-services cp-console -o jsonpath={.spec.host})
+YOUR_IM_HTTPD_ROUTE=$(oc get ingress.config.openshift.io -o=jsonpath='{.items[0].spec.domain}')
 echo "YOUR_IM_HTTPD_ROUTE before ==> $YOUR_IM_HTTPD_ROUTE" 
 
 YOUR_IM_HTTPD_ROUTE="inframgmtinstall.$YOUR_IM_HTTPD_ROUTE"
