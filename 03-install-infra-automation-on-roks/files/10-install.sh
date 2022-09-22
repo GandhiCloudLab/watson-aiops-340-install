@@ -9,7 +9,6 @@ source ./common/04-create-crd-ia-config.sh
 source ./common/05-verify-crd-ia-config.sh
 source ./common/06-verify-pods-count.sh
 source ./common/07-configure-signed-certifications-for-nginx.sh
-source ./common/08-create-crd-im-install.sh
 source ./common/21-print-aiops-console-url-pwd.sh
 
 install_main() {

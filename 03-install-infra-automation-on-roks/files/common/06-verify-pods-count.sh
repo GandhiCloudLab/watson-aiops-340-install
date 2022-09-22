@@ -9,7 +9,7 @@ echo "----------------------------------------------------------------------"
 GLOBAL_POD_VERIFY_STATUS=false
 
 POD_COUNT=0
-MIN_POD_COUNT=180
+MIN_POD_COUNT=40
 MAX_WAIT_MINUTES=120
 LOOP_COUNT=0
 
